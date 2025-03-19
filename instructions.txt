@@ -1,0 +1,11 @@
+Write an HTML page with an h1 title, and below it add:
+
+A section with a paragraph talking about yourself and an image
+
+Another section with an h2 about the theme of food and below an unordered list with 3 items about your favorite foods. In this same section, add a paragraph with a link to a website that contains a recipe for one of your favorite foods. 
+
+Another section with an h2 about the theme of tasks and a numbered list of 3 tasks you have to do. 
+
+Another section with an h2 about the theme of musical preferences and below an ordered list of your preferences for 3 musical artists or songs. Add to this section a paragraph that contains an external link to YouTube showing one of these preferred artists or songs. 
+
+Comment on your code each item requested before the element. Organization of the code and readability (indentation and correct use of HTML tags and comments). 
