@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envie suas opiniões sobre a página pessoal de Enrique Labre</title>
+</head>
+
+<body>
+    <h1>Envie suas opiniões sobre a página pessoal de Enrique Labre</h1>
+
+    <form action="submit" method="post">
+        <h2>Informação Pessoal</h2>
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <h2>Como você encontrou minha página?</h2>
+        <select name="opiniao" id="opiniao">
+            <option value="Selecione uma opção">Selecione uma opção</option>
+            <option value="Google">Google</option>
+            <option value="Facebook">Facebook</option>
+            <option value="Amigo">Amigo</option>
+            <option value="WhatsApp">WhatsApp</option>
+        </select>
+
+        <h2>Você gostou da minha página?</h2>
+        <input type="radio" name="gostou" id="gostei" value="sim">
+        <label for="gostei">Sim</label>
+        <br>
+        <input type="radio" name="gostou" id="naogostei" value="nao">
+        <label for="naogostei">Não</label>
+        <br>
+        <input type="radio" name="gostou" id="naosei" value="naosei">
+        <label for="naosei">Não sei</label>
+
+        <h2>O que mais te atraiu em minha página?</h2>
+        <input type="checkbox" name="atraiu" id="design" value="design">
+        <label for="design">Design</label>
+        <br>
+        <input type="checkbox" name="atraiu" id="facilidade" value="facilidade">
+        <label for="facilidade">Facilidade de uso</label>
+        <br>
+        <input type="checkbox" name="atraiu" id="midias" value="midias">
+        <label for="midias">Mídias</label>
+        <br>
+        <input type="checkbox" name="atraiu" id="conteudo" value="conteudo">
+        <label for="conteudo">Conteúdo</label>
+        <br><br>
+        
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Limpar">
+    </form>
+
+    <h2>Multimídia</h2>
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+        <source src="https://youtube.com/shorts/s8MrbSyoTYU?si=uun0vFwpj0vSxevU" type="video/webm">
+        Seu navegador não suporta o elemento de vídeo.
+    </video>
+    <br>
+    <audio controls>
+        <source src="https://www.youtube.com/watch?v=dgha9S39Y6M" type="audio/mpeg">
+        <source src="audio.ogg" type="audio/ogg">
+        Seu navegador não suporta o elemento de áudio.
+    </audio>
+</body>

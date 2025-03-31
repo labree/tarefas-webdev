@@ -1,0 +1,32 @@
+Tarefa 2 – Formulário – Data – Até 9:20 do dia 02-04-2025
+Objetivos: saber incorporar diferentes elementos de formulários e elementos de multimídia em páginas html.
+
+    1. Crie uma página html que começe com um título: Envie suas opiniões sobre a página pessoal de (Coloque seu nome). (1pt)
+    
+    2. Formulário: 
+        • Entradas de texto para nome e email com seus tipos correspondentes para validação no html. (1pt)
+    
+    3. Uma seção com feedbacks que contenha
+        • Uma caixa de seleção suspensa (select), após a pergunta: 
+            Como você encontrou minha página?
+            Com as opções: google, Facebook, Amigo, Whatsapp. (1pt)
+        • Uma pergunta: Você gostou da minha página?
+            Seguida de botões de opção (radio) com opções sim, não, não sei bem. (1pt)
+        • Uma pergunta: O que mais te atraiu em minha página? 
+            Seguida de caixas de seleção (checkbox) com opções design, Facilidade de uso, mídias, conteúdo. (1pt)
+
+    4. Submissão:
+        • Um input de submissão (1pt)
+        • Um input para limpar o formulário (1pt)
+
+    5. Adicione uma seção multimídia onde exista:
+        • um vídeo que você ache interessante (1pt)
+        • um clipe de áudio (1pt)
+
+Use os elementos source dentro de cada mídia do item 5 com pelo menos duas opções de arquivos de mídia para o browser.
+
+Considerações finais: 
+
+Seu formulário não envia nada para um servidor. 
+
+Interessa a aplicação dos elementos html e sua estrutura na página. Use boas práticas abordadas nas aulas como o pareamento das labels com os inputs no formulário, seus elementos de mídia devem ter controles, organize o layout, mas não é necessário o uso de css e comente seu código em relação aos itens solicitados. (1pt)
