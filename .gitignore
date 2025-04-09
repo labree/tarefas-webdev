@@ -1,0 +1,12 @@
+# Ignore instruction files
+AP1/instructions/
+
+# Ignore the explanation file
+AP1/website_explanation.txt
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore common IDE/editor directories
+.vscode/
+.idea/ 
